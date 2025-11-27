@@ -14,13 +14,13 @@ class TableEntry {
         V value;         //valor del par
 
         //metodos
-        TableEntry(std::string key, V value){
-            key = key;
-            value = value;
+        TableEntry(std::string k, V v){
+            key = k;
+            value = v;
         }
 
-        TableEntry(std::string key){
-            key = key;
+        TableEntry(std::string k){
+            key = k;
         }
 
         TableEntry(){
